@@ -754,7 +754,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: brightness(0) invert(1);
   transition: var(--transition-1);
 }
 
